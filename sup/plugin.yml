@@ -1,0 +1,26 @@
+name: Auto Broadcaster
+main: me.supervol.sup.main
+version:  1.5 prototype 
+description: 
+             Broadcasts messages at a set interval. With commands.
+commands:
+  bhelp:
+    description: Shows help to players
+    usage: /bhelp
+  addb?:
+    description: shows user how to add a new broadcast.
+    usage: /addb?
+  delb?:
+    description: shows user how to delete broadcast.
+    usage: /delb?  
+  btime:
+    description: Sets the time between broadcasts.
+    usage: /btime  
+  delb:
+    description: Deletes selected broadcast messages.
+    usage: /delb <broadcast name> 
+  addb:
+    description: Adds another broadcast mesages to the file.
+    usage: /addb    
+    
+    
